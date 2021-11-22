@@ -1,0 +1,71 @@
+
+<!-- next -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="home"><img src="../../../assets/food-logo.png" class="logo" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#" routerLink="Categories">Categories</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#" routerLink="/Blog">Blog</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#" routerLink="About-Us">About Us</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#" routerLink="Contact-Us">Contact Us</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#" routerLink="/login">Login/Register</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#" routerLink="/Blog-edit">Blog Edit</a>
+          </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- fixed-top -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="home"><img src="../../../assets/food-logo.png" class="logo" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" [routerLink]="['Categories']" routerLinkActive="active">Categories</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" [routerLink]="['Blog']" routerLinkActive="active">Blog</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" [routerLink]="['About-Us']" routerLinkActive="active">About Us</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" [routerLink]="['Contact-Us']" routerLinkActive="active">Contact Us</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" [routerLink]="['/login']" routerLinkActive="active">Login/Register</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" [routerLink]="['Blog-edit']" routerLinkActive="active">Blog Edit</a>
+          </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>

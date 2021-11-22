@@ -1,0 +1,50 @@
+.titless{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #d56163;
+    color: white;
+    text-align: center;
+}
+.foodcart{
+    text-align: center;
+}
+.foodcart ul li {
+    text-decoration: none;
+    display: inline;
+}
+button.btn.btn-success {
+    margin: 2px;
+    background-color: white;
+    color: black;
+    border: none;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% -50%);
+}
+button.btn.btn-success:hover{
+color: #d56163;
+}
+button.btn.btn-success:active{
+    background-color: #d56163;
+    color: white;
+}
+.slider {
+    text-align: center;
+  
+}
+
+/* rting */
+.star {
+    font-size: 1.5rem;
+    color: #b0c4de;
+  }
+  .filled {
+    color: orange;
+  }
+  .bad {
+    color: #deb0b0;
+  }
+  .filled.bad {
+    color: orange;
+  }

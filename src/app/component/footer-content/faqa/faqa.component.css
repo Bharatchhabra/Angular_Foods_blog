@@ -1,0 +1,35 @@
+
+.titless{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #d56163;
+    color: white;
+    text-align: center;
+}
+.privacy-plicy{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+span.num {
+    color: brown;
+    font-family: bold;
+    margin: 10px;
+    font-size: 2em;
+}
+.margin2{
+    color: brown;
+}
+.checked {
+    color: orange;
+  }
+i.fa.fa-heart {
+    float: right;
+    position: relative;
+    left: -23px;
+    top: 10px;
+    color: red;
+}
+img.card-img-top {
+    height: 44%;
+    width: auto;
+}

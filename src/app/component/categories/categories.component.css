@@ -1,0 +1,59 @@
+.margin2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.titless{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #d56163;
+    color: white;
+    text-align: center;
+}
+img.card-img-top {
+    height: 75%;
+    width: auto;
+}
+img.image {
+    height: 350px;
+    margin-left: 33%;
+}
+.categories1 {
+    height: 245px;
+        width: 70%;
+        background: antiquewhite;
+        position: relative;
+        left: 2%;
+        top: 7%;
+}
+.textt {
+    text-align: center;
+    position: relative;
+    top: 22px;
+    left: 0%;
+}
+
+.cateacard {
+    background-color: gray;
+    height: 21em;
+}
+.card-img{
+    height: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

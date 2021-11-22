@@ -1,0 +1,37 @@
+.title{
+    color: brown;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cardx{
+    margin: 10px;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+}
+.cardtext{
+    margin-left: 10px;
+}
+.imgcard{
+    height: 54px;
+}
+p.cardtext1 {
+    font-size: 17px;
+    color: black;
+    margin-left: 89px;
+}
+form{
+    width: 50%;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+button.btn.btn-outline-dark.col-sm-4 {
+    float: right;
+}
+.popup{
+    height: 50px;
+    width: 50px;
+    margin-left: 35px;
+}

@@ -1,0 +1,30 @@
+.privacy-plicy{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+span.num {
+    color: brown;
+    font-family: bold;
+    margin: 10px;
+    font-size: 2em;
+}
+.margin2{
+    color: brown;
+}
+.checked {
+    color: orange;
+  }
+i.fa.fa-heart {
+    float: right;
+    position: relative;
+    left: -23px;
+    top: 10px;
+    color: red;
+}
+img.card-img-top {
+    height: 44%;
+    width: auto;
+}
+li.margin1 {
+    margin-top: 40px;
+}

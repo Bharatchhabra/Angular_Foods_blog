@@ -1,0 +1,28 @@
+.userimage{
+    height: 10em;
+    border-radius: 100%;
+}
+.margin2{
+    color: brown;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.checked {
+    color: orange;
+  }
+i.fa.fa-heart {
+    float: right;
+    position: relative;
+    left: -23px;
+    top: 10px;
+    color: red;
+}
+button.btn.btn-outline-primary {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+img.card-img-top {
+    height: 44%;
+    width: auto;
+}

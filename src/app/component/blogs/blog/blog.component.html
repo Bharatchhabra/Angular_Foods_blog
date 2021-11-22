@@ -1,0 +1,111 @@
+<div class="container">
+  <div class="titless">
+      
+      <h3 class="title">Blogs</h3>
+  </div>
+  <div class="margin2">
+      <a routerLink="/home">Home ></a><a routerLink="about-Us">Blogs</a>
+  </div>
+</div>
+<div class="container">
+    <br>
+    <div class="row" >
+      <div class="col-3 mb-4" *ngFor="let item of Products">
+        <div class="card-deck" *ngIf="show1">
+        <div class="card">
+          <a routerLink="single-blog">
+            <img class="card-img-top" src={{item.imageUrl}} alt="Card image cap">
+          </a>
+           
+            <div class="card-body">
+                <h4>{{item.title}}</h4>
+                <p>{{item.Discription}}</p>
+                <p>by nisha joshi</p>
+                <ngb-rating [(rate)]="currentRate">
+                  <ng-template let-fill="fill" let-index="index">
+                    <span class="star" [class.filled]="fill === 100" [class.bad]="index < 3">&#9733;</span>
+                  </ng-template>
+                </ngb-rating>
+                <hr>
+                <pre>Rate: <b>{{currentRate}}</b></pre>
+            </div>
+          </div>
+      </div>
+      </div>
+      <!-- next card  -->
+      <div class="col-3 mb-4" *ngFor="let item of Products">
+        <div class="card-deck" *ngIf="show2">
+        <div class="card">
+            <img class="card-img-top" src={{item.imageUrl}} alt="Card image cap">
+            <div class="card-body">
+                <h4>{{item.title}}</h4>
+                <p>{{item.Discription}}</p>
+                <p>by nisha joshi</p>
+                <ngb-rating [(rate)]="currentRate">
+                  <ng-template let-fill="fill" let-index="index">
+                    <span class="star" [class.filled]="fill === 100" [class.bad]="index < 3">&#9733;</span>
+                  </ng-template>
+                </ngb-rating>
+                <hr>
+                <pre>Rate: <b>{{currentRate}}</b></pre>
+            </div>
+          </div>
+      </div>
+      </div>
+         <!-- next card  -->
+         <div class="col-3 mb-4" *ngFor="let item of Products">
+          <div class="card-deck" *ngIf="show3">
+          <div class="card">
+              <img class="card-img-top" src={{item.imageUrl}} alt="Card image cap">
+              <div class="card-body">
+                  <h4>{{item.title}}</h4>
+                  <p>{{item.Discription}}</p>
+                  <p>by nisha joshi</p>
+                  <ngb-rating [(rate)]="currentRate">
+                    <ng-template let-fill="fill" let-index="index">
+                      <span class="star" [class.filled]="fill === 100" [class.bad]="index < 3">&#9733;</span>
+                    </ng-template>
+                  </ngb-rating>
+                  <hr>
+                  <pre>Rate: <b>{{currentRate}}</b></pre>
+              </div>
+            </div>
+        </div>
+        </div>
+           <!-- next card  -->
+      <div class="col-3 mb-4" *ngFor="let item of Products">
+        <div class="card-deck" *ngIf="show4">
+        <div class="card">
+            <img class="card-img-top" src={{item.imageUrl}} alt="Card image cap">
+            <div class="card-body">
+                <h4>{{item.title}}</h4>
+                <p>{{item.Discription}}</p>
+                <p>by nisha joshi</p>
+                <ngb-rating [(rate)]="currentRate">
+                  <ng-template let-fill="fill" let-index="index">
+                    <span class="star" [class.filled]="fill === 100" [class.bad]="index < 3">&#9733;</span>
+                  </ng-template>
+                </ngb-rating>
+                <hr>
+                <pre>Rate: <b>{{currentRate}}</b></pre>
+            </div>
+          </div>
+      </div>
+      </div>
+     </div>
+   
+      <br> <p></p>
+     <div class="slider">
+      <button (click)="toggle2()" class="btn btn-success">Next</button>
+      <button (click)="toggle1()" class="btn btn-success">1</button>
+      <button (click)="toggle2()" class="btn btn-success"> 2</button>
+      <button (click)="toggle3()" class="btn btn-success"> 3</button>
+      <button (click)="toggle4()" class="btn btn-success"> 4</button>
+      <button (click)="toggle3()" class="btn btn-success">Previous</button>
+     </div>
+        
+        
+   
+</div>
+
+

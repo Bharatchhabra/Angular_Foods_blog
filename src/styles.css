@@ -1,0 +1,145 @@
+/* You can add global styles to this file, and also import other style files */
+.margin2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.privacy-plicy{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.checked {
+    color: orange;
+  }
+i.fa.fa-heart {
+    float: right;
+    position: relative;
+    left: -23px;
+    top: 10px;
+    color: red;
+}
+/* responsive web  */
+@media only screen and (min-width: 992px) {
+    .container .col-5 {
+        flex: 0 0 auto !important;
+        width: 0 !important;
+        text-align: center !important;
+    }
+    .aboutcard[_ngcontent-vki-c117] {
+        height: 300px;
+        width: 400px;
+        border: 2px solid gainsboro;
+        background-color: #edc187;
+        position: relative;
+        left: 0px !important;
+    }
+  
+  }
+
+@media only screen and (max-width: 767px) {
+    #homeex {
+        position: relative !important;
+        top: 0px !important;
+    }
+    .col h1 {
+        position: relative !important;
+        top: 0px !important;
+    }
+    .containerx[_ngcontent-utr-c117] {
+        position: relative;
+        text-align: center;
+        color: white;
+        margin-top: 10px !important;
+    }
+    .bgcolor .container .row .col-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .card-deck {
+        display: -ms-flexbox;
+        /* display: flex; */
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .card-deck {
+        display: -ms-flexbox;
+        /* display: flex; */
+        flex-flow: row wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        display: contents;
+        margin-top: 13px;
+    }
+    .col-5 {
+        width: 100%;
+    }
+    i.fa.fa{
+        font-size: 1.5em !important;
+        margin: 20px !important;
+    }
+    .container .row .col-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .container .row .col-3.mb-4 {
+        width: 100%;
+    }
+    .col {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+    .top-left[_ngcontent-sya-c118] {
+        position: unset !important;
+        background-color: white !important;
+        color: black !important;
+        width: 100% !important; 
+    }
+    .top-left.col-4 {
+        position: unset !important;
+    }
+    .top-left{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: none;
+        background-color: white;
+        color: black;
+    }
+    .iconimg{
+        height: 28px !important;
+        margin-bottom: 6px !important;
+    }
+    .formimg {
+        width: 100%;
+        height: 30em;
+        position: relative;
+        left: 0px;
+    }
+    .categories1 {
+        background-color: #d5c087;
+        width: 100%;
+        height: 25em;
+        text-align: center;
+        position: relative;
+        left: 0px !important;
+        top: 20px;
+    }
+    .card-deck .card {
+        margin-bottom: 16px;
+    }
+    .col-6 h1 {
+        position: relative !important;
+        top: 8px !important;
+        left: 16% !important;
+    }
+    .top-left.col-4 {
+        display: none;
+    }
+    .hidden {
+        display: block !important;
+    }
+  }

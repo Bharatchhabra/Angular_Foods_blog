@@ -1,0 +1,26 @@
+body{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+img.logo {
+    height: 37px;
+    width: 129px;
+    
+}
+i.fa.fa-sign-in {
+    margin-left: 14px;
+}
+
+
+a.nav-link {
+  margin: 10px;
+}
+a:hover{
+  background-color: rgb(255, 187, 187);
+}
+.hidden .container .col-8 form {
+  display: none !important;
+}
+.hidden {
+  display: none !important;
+}
