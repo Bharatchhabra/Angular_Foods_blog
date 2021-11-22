@@ -21,7 +21,7 @@
             <a class="nav-link" href="#" routerLink="Contact-Us">Contact Us</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#" routerLink="/login">Login/Register</a>
+            <a class="nav-link col col-lg-2" href="#" routerLink="/login">Login</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#" routerLink="/Blog-edit">Blog Edit</a>
@@ -42,30 +42,38 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+      <ul class="navbar-nav mr-auto ">
+        <li class="nav-item">
           <a class="nav-link" [routerLink]="['Categories']" routerLinkActive="active">Categories</a>
         </li>
-        <li class="nav-item active">
-            <a class="nav-link" [routerLink]="['Blog']" routerLinkActive="active">Blog</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" [routerLink]="['About-Us']" routerLinkActive="active">About Us</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" [routerLink]="['Contact-Us']" routerLinkActive="active">Contact Us</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" [routerLink]="['/login']" routerLinkActive="active">Login/Register</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" [routerLink]="['Blog-edit']" routerLinkActive="active">Blog Edit</a>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['About-Us']" routerLinkActive="active">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['Contact-Us']" routerLinkActive="active" id="contact">Contact Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['Blog']" routerLinkActive="active" id="blog">Blog</a>
           </li>
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+       
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" ><span><i class="fa fa-search" aria-hidden="true"></i></span>
+          <!-- <button class="btn btn-success" type="submit">Search</button> -->
+        </form>
+        <ul class="navbar-nav mr-auto" style="margin-left: 125px;">
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/login']" routerLinkActive="active" id="login">Login</a>
+            </li>
+            <!-- <li class="nav-item active">
+              <a class="nav-link" [routerLink]="['Blog-edit']" routerLinkActive="active">Blog Edit</a>
+            </li> -->
+        </ul>
+        
+     
+    
     </div>
   </div>
 </nav>

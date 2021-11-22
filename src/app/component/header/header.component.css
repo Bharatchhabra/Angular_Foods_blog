@@ -16,11 +16,45 @@ a.nav-link {
   margin: 10px;
 }
 a:hover{
-  background-color: rgb(255, 187, 187);
+  text-decoration: underline 2px solid burlywood !important;
 }
 .hidden .container .col-8 form {
   display: none !important;
 }
 .hidden {
   display: none !important;
+}
+/* #contact{
+  position: relative;
+  right: -330px;
+}
+a#blog {
+  position: relative;
+  right: -330px;
+}
+a#login {
+  position: relative;
+  left: 240%;
+} */
+/* form.d-flex.ng-untouched.ng-pristine.ng-valid {
+  margin-top: 0px;
+  margin-left: 60px;
+
+ 
+} */
+#navbarSupportedContent form.d-flex.ng-untouched.ng-pristine.ng-valid input {
+  border-radius: 20px;
+  width: 290px;
+  position: relative;
+  left: -7em;
+}
+i.fa.fa-search {
+  position: relative;
+  left: -10em;
+  top: 6px;
+  color: darkorange;
+}
+
+.navnext{
+  margin-left: 125px;
 }
